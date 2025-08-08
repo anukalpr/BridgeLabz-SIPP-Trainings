@@ -1,1 +1,50 @@
-This is my OOPs pseudo code 
+start
+define class Pet
+{
+ATTRIBUTE name
+ATTRIBUTE age
+ATRRIBUTE color
+
+
+CONSTRUCTOR(name,age,color)
+{
+SET this.name=name
+SET this.age=age
+SET this.color
+}
+
+
+}
+define class Dog extends Pet
+{
+ATTRIBUTE breed
+ATTRIBUTE sound
+}
+define class Cat extends Pet
+{
+ATTRIBUTE breed
+ATTRIBUTE sound
+}
+define class Bird extends Pet
+{
+ATTRIBUTE sound
+}
+end
+
+
+//Question 2:-
+start
+define class Member
+{
+ATTRIBUTE Name
+ATTRIBUTE Id
+ATTRIBUTE Membership_date
+
+
+Method checkValidity(){
+SET difference = currentDate - Membership_date
+RETURN difference < 1 THEN true otherwise false
+
+}
+}
+end
