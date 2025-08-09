@@ -44,7 +44,7 @@ class Manager extends Employee {
     }
 }
 
-class Main {
+class SubClass {
     public static void main(String[] args) {
         Employee e1 = new Employee(101, "Finance", 50000);
         e1.displayEmployeeDetails();
