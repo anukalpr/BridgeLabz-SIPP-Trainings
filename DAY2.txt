@@ -1,0 +1,34 @@
+Question 1:-
+
+part 2:-
+START
+DEFINE Interface Crop
+{
+METHOD waterRequirement()
+METHOD harvesting()
+}
+
+DEFINE CLASS Rice Implements Crop
+{
+METHOD waterRequirement()
+{
+PRINT "Rice requires about 1200 mm water per season."
+}
+METHOD harvesting()
+{
+PRINT "Rice is harvested using combine harvesters."
+}
+}
+DEFINE CLASS Wheat EXTENDS Crop
+{
+METHOD waterRequirement()
+{
+PRINT "Wheat requires about 450 mm water per season."
+}
+METHOD harvesting()
+{
+PRINT "Wheat is harvested using sickles or harvesters."
+}
+}
+END
+
